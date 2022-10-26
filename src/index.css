@@ -8,9 +8,9 @@
 }
 @font-face{
   font-family: 'Gilroy bold';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../src/assets/fonts/Radomir_Tinkov\ _Gilroy_ExtraBold.woff')
+  font-style:normal;
+  font-weight: bold;
+  src: url("../src/assets/fonts/Radomir_Tinkov_Gilroy_ExtraBold.woff")
 }
 
 body {
