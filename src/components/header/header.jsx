@@ -1,5 +1,7 @@
 import React from 'react';
 import './header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
   return (
@@ -12,10 +14,14 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav roja">
             <a href="www.google.com" className="nav-item nav-link">Home</a>
-            <a href="www.google.com" className="nav-item nav-link">Package</a>
+            <a href="www.google.com" className="nav-item nav-link">
+              Package
+            </a>
             <a href="www.google.com" className="nav-item nav-link">About us</a>
             <a href="www.google.com" className="nav-item nav-link">Contact Us</a>
-            <a href="www.google.com" className="nav-item nav-link">Cart</a>
+            <a href="www.google.com" className="nav-item nav-link">
+              <FontAwesomeIcon icon={faShoppingCart} aria-hidden="true" />
+            </a>
             <a href="www.google.com" className="nav-item nav-link">Booking Now</a>
 
           </div>
