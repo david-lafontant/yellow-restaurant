@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-transparent ms-auto navbar-right">
       <div className="container-fluid">
-        <a href="www.google.com" className="navbar-brand">Denis&apos; foodies</a>
+        <a href="www.google.com" className="navbar-brand brand">Denis&apos; foodies</a>
         <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
           <span className="navbar-toggler-icon" />
         </button>
