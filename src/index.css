@@ -1,16 +1,16 @@
 
-
-@font-face{
+@font-face {
   font-family: 'Gilroy light';
   font-style: normal;
   font-weight: normal;
-  src: url('../src/assets/fonts/Radomir_Tinkov\ _Gilroy_Light.woff')
+  src: url('../src/assets/fonts/Radomir_Tinkov\ _Gilroy_Light.woff');
 }
-@font-face{
+
+@font-face {
   font-family: 'Gilroy bold';
-  font-style:normal;
+  font-style: normal;
   font-weight: bold;
-  src: url("../src/assets/fonts/Radomir_Tinkov_Gilroy_ExtraBold.woff")
+  src: url("../src/assets/fonts/Radomir_Tinkov_Gilroy_ExtraBold.woff");
 }
 
 body {
