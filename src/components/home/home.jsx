@@ -1,10 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import './home.css'
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container landing">
       <div className="row">
         <section className="landing">
           <h2>
