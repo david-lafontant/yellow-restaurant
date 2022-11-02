@@ -73,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 food_bowl by : Photo by <a href="https://unsplash.com/@nadineprimeau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nadine Primeau</a> on <a href="https://unsplash.com/s/photos/food-bowl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
+Download SVG File
