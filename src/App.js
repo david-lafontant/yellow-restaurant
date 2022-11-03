@@ -3,6 +3,7 @@ import About from './components/about/about';
 import Header from './components/header/header';
 import Home from './components/home/home';
 import Menu from './components/menu/menu';
+import Testimonial from './components/testimonial/testimonial';
 import Work from './components/work/work';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Work />
       <Menu />
+      <Testimonial />
     </div>
   );
 }
