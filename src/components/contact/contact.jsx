@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from 'react';
+import { React, useState } from 'react';
 
 function Contact() {
   const [email, setEmail] = useState('');
@@ -10,8 +9,14 @@ function Contact() {
       </div>
       <div>
         <form>
-          <label for="email" className="label">
-            <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} />
+          <label htmlFor="email" className="label">
+            Email
+            <input
+              type="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
           </label>
         </form>
       </div>
@@ -23,11 +28,8 @@ function Contact() {
           <li>instagram</li>
         </ul>
       </div>
-
-
-
     </div>
-  )
+  );
 }
 
 export default Contact;
