@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/about/about';
+import Contact from './components/contact/contact';
 import Header from './components/header/header';
 import Home from './components/home/home';
 import Menu from './components/menu/menu';
@@ -15,6 +16,7 @@ function App() {
       <Work />
       <Menu />
       <Testimonial />
+      <Contact />
     </div>
   );
 }
