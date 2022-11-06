@@ -5,8 +5,11 @@ import './home.css';
 import riceSalad from '../../assets/pictures/rice_salad.webp';
 
 function Home() {
+  const style = {
+    height: '100vh',
+  };
   return (
-    <section className="row">
+    <section className="row" style={style}>
       <div className="col-md-6">
         <h2>
           Your Favorite food delivered hot & fresh!
