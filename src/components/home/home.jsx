@@ -9,7 +9,7 @@ function Home() {
     height: '100vh',
   };
   return (
-    <section className="row" style={style}>
+    <section className="row align-items-center" style={style}>
       <div className="col-md-6">
         <h2>
           Your Favorite food delivered hot & fresh!
