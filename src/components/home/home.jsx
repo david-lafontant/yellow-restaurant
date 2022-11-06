@@ -26,6 +26,9 @@ function Home() {
       <div className="col-md-6">
         <img src={riceSalad} alt="rice salad" />
       </div>
+      <div className="col-12 border info">
+ 
+      </div>
     </section>
   );
 }
